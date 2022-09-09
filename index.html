@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ola.css" media="screen"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+
+</head>
+<body>
+    <div class= "completo">
+        <div class="contenedor">  
+            <div class = "mapa" id="myMap"></div>
+            <div class="grande">
+                <div class="carta">
+                    <div class ="partearriba">
+                        <h1> Chat</h1>
+                    </div>
+                    <div id="chat" class="cuerpo"></div>
+                    <form id="message-form" class="pie">
+                        <input type="text" id="message" class="form-control">    
+                        <input type="submit" class="btn btn-warning">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="div1" > <table class="tabla" id="table">
+            <thead>
+                <tr>
+                    <th>Flight</th><th>Origin</th><th>Destination</th>      
+                </tr> 
+            </thead>      
+        </table>
+        </div>
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+     integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+     crossorigin=""></script>
+     <script type="text/javascript" src="hola.js"></script>
+</body>
+</html>
